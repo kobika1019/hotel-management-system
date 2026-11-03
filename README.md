@@ -77,4 +77,4 @@ This system helps to reduce manual work and makes hotel management easier.
 
 **Developed by Group 11**  
 **University of Vavuniya**  
-*Blue Moon Hotel Management System* 
+*Blue Moon Hotel Management System*
