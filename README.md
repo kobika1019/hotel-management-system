@@ -5,15 +5,12 @@
 **Course:** IT2133 – Advanced Web Programming
 
 ##  Group Members
-
-| No. | Registration Number | Name |
-|---|---|---|---|
-| 1 | 2023/ICT/139 | R. Kobika |
-| 2 | 2023/ICT/79 | Ms. Deepawansha |
-| 3 | 2023/ICT/148 | Miss. Amarashinghe K.K.D.G | 
-| 4 | 2023/ICT/99 | Ms. Reema F.F | Group Member |
-| 5 | 2023/ICT/15 | Ms. Jayarathna W.A.D.P | Group Member |
-| 6 | 2023/ICT/59 | Ms. Wimalasiri M.R.P.H.A | Group Member |
+2023/ICT/139  R. Kobika ,
+2023/ICT/79  Ms. Deepawansha ,
+2023/ICT/148  Miss. Amarashinghe K.K.D.G ,
+2023/ICT/99  Ms. Reema F.F ,
+2023/ICT/15  Ms. Jayarathna W.A.D.P  ,
+2023/ICT/59  Ms. Wimalasiri M.R.P.H.A
 
 ---
 
@@ -35,7 +32,7 @@ This system helps to reduce manual work and makes hotel management easier.
 - To help the admin manage rooms and bookings.
 - To store all details in a MySQL database.
 
-## ✨ Main Features
+##  Main Features
 
 ### Customer Features
 - Register and log in.
@@ -80,4 +77,4 @@ This system helps to reduce manual work and makes hotel management easier.
 
 **Developed by Group 11**  
 **University of Vavuniya**  
-*Blue Moon Hotel Management System* 💙
+*Blue Moon Hotel Management System* 
