@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 About the Project
+## About the Project
 
 Blue Moon Hotel Management System is a web-based project developed to manage hotel activities easily.
 
