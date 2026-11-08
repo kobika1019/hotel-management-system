@@ -1,3 +1,4 @@
+
 <?php
 
 if (session_status() === PHP_SESSION_NONE) {
@@ -282,18 +283,25 @@ $safe_user_role = htmlspecialchars((string)($user_role ?? ''), ENT_QUOTES, 'UTF-
                     </div>
 
 
-                    <!-- LOGOUT -->
+                   
+<!-- LOGOUT -->
 
-                    <a
-                        href="<?php echo $base_path; ?>logout.php"
-                        class="btn btn-logout"
-                    >
+<form
+    action="<?php echo $base_path; ?>logout.php"
+    method="POST"
+    class="d-inline"
+>
+    <input
+        type="hidden"
+        name="csrf_token"
+        value="<?php echo htmlspecialchars($_SESSION['csrf_token'] ?? '', ENT_QUOTES, 'UTF-8'); ?>"
+    >
 
-                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
-
-                        <span>Logout</span>
-
-                    </a>
+    <button type="submit" class="btn btn-outline-light">
+        <i class="fa-solid fa-right-from-bracket me-1"></i>
+        Logout
+    </button>
+</form>
 
 
                 <?php else: ?>
