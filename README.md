@@ -4,6 +4,8 @@
 **Group Number:** 11  
 **Course:** IT2133 – Advanced Web Programming
 
+---
+
 ## Group Members
 
 - 2023/ICT/139 – R. Kobika
@@ -17,73 +19,97 @@
 
 ## About the Project
 
-Blue Moon Hotel Management System is a web-based project developed to manage hotel activities easily.
+Blue Moon Hotel Management System is a web-based application developed to manage basic hotel activities easily and efficiently.
 
-Customers can view available rooms and make room bookings through the website. Staff members can access the staff dashboard to handle guest-related activities. The admin can manage rooms, room types, customer details, and bookings.
+Customers can register, log in, view room details, and make room bookings through the website. Staff members can access the staff dashboard to view customer booking information. The admin can manage rooms and bookings through the admin dashboard.
 
-This system helps to reduce manual work and makes hotel management easier and more organized.
+This system helps reduce manual work and makes hotel management easier and more organized.
 
 ## Project Objectives
 
-- To develop a user-friendly hotel website.
+- To develop a user-friendly hotel management website.
 - To allow customers to register and log in.
 - To display room details and prices.
 - To allow customers to book rooms online.
-- To manage customer and booking details.
-- To help staff handle guest-related activities.
-- To help the admin manage rooms and bookings.
+- To manage customer booking information.
+- To allow customers to view their booking history.
+- To help staff monitor guest booking activities.
+- To allow the admin to manage rooms and bookings.
 
 ## Main Features
 
 ### Customer Features
-- Register and log in.
-- View available rooms.
-- Check room details and prices.
-- Book rooms.
-- View booking history.
-- Request booking cancellation.
+
+- Register a new account.
+- Log in and log out.
+- View room details and prices.
+- Book hotel rooms.
+- View personal booking history.
+- Request cancellation of pending bookings.
 
 ### Staff Features
+
 - Staff login.
 - Access the staff dashboard.
-- View and handle guest-related activities.
+- View customer booking details.
+- Monitor booking activities.
 
 ### Admin Features
+
 - Admin login.
 - View dashboard details.
-- Add, edit, and manage rooms.
-- Manage room types.
+- Add new rooms.
+- Edit room information.
+- Delete rooms.
+- View room information and room types.
 - View customer bookings.
-- Update booking status.
-- View booking reports.
+- Approve or reject pending bookings.
+- Manage booking statuses.
 
 ## Technologies Used
 
 | Technology | Purpose |
 |---|---|
 | HTML | Creating web pages |
-| CSS | Designing web pages |
+| CSS | Styling web pages |
 | Bootstrap 5 | Responsive website design |
 | JavaScript | Adding interactive features |
-| PHP | Handling website functions |
-| MariaDB / MySQL | Storing data |
+| PHP | Handling server-side functions |
+| MariaDB / MySQL | Storing application data |
 | XAMPP | Running the project locally |
 | phpMyAdmin | Managing the database |
-| Git & GitHub | Managing project files and teamwork |
+| Git & GitHub | Version control and teamwork |
 
-## Security
+## Database
 
-- Password hashing using PHP password hashing functions.
+The project uses a MariaDB / MySQL database named:
+
+`blue_moon_hotel_db`
+
+Main database tables:
+
+- `users` – Stores customer, staff, and admin account details.
+- `room_types` – Stores room categories and prices.
+- `rooms` – Stores hotel room information.
+- `bookings` – Stores customer booking details.
+
+## Security Features
+
+- Password hashing using PHP `password_hash()`.
+- Password verification using PHP `password_verify()`.
 - Prepared statements for database queries.
 - Form validation.
 - Session-based authentication.
 - Role-based access control for Admin, Staff, and Customers.
-- Booking date validation to avoid invalid reservations.
-- Booking conflict checking to prevent overlapping room reservations.
 - CSRF token protection for applicable forms.
+- Booking date validation.
+- Booking conflict checking to prevent overlapping reservations.
+- Output escaping using `htmlspecialchars()`.
 
 ---
 
-**Developed by Group 11**  
+## Developed By Group 11
+
 **University of Vavuniya**  
-*Blue Moon Hotel Management System*
+**Faculty of Applied Science**  
+**Blue Moon Hotel Management System**
