@@ -2366,3 +2366,259 @@ button:focus-visible {
         font-size: 20px;
     }
 }
+
+
+
+body {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Navbar */
+.luxury-navbar .nav-link {
+    font-size: 15px;
+}
+
+.luxury-navbar .btn {
+    font-size: 14px;
+}
+
+.user-name {
+    font-size: 14px;
+}
+
+.user-role {
+    font-size: 12px;
+}
+
+/* Brand */
+.brand-name {
+    font-size: 28px;
+}
+
+.brand-subtitle {
+    font-size: 10px;
+}
+
+/* Hero section */
+.hero-label {
+    font-size: 13px;
+}
+
+.hero-description {
+    font-size: 17px;
+}
+
+.hero-bottom-text {
+    font-size: 14px;
+}
+
+/* Paragraphs */
+.intro-description,
+.section-heading p,
+.service-card p,
+.portal-card p,
+.booking-cta-content p,
+.rooms-hero p {
+    font-size: 15px;
+}
+
+/* Section headings */
+.section-subtitle {
+    font-size: 13px;
+}
+
+/* Features */
+.intro-feature {
+    font-size: 15px;
+}
+
+.service-card h5 {
+    font-size: 19px;
+}
+
+.portal-card h4 {
+    font-size: 27px;
+}
+
+.portal-label {
+    font-size: 12px;
+}
+
+.portal-link {
+    font-size: 15px;
+}
+
+/* Buttons */
+.btn-gold,
+.hero-buttons .btn,
+.room-action .btn {
+    font-size: 15px;
+}
+
+/* Rooms */
+.rooms-hero-subtitle {
+    font-size: 13px;
+}
+
+.room-type-label {
+    font-size: 12px;
+}
+
+.room-description {
+    font-size: 15px;
+}
+
+.room-feature {
+    font-size: 13px;
+}
+
+.price-label {
+    font-size: 11px;
+}
+
+.price-period {
+    font-size: 14px;
+}
+
+/* Forms */
+.form-control,
+.form-select {
+    font-size: 15px;
+}
+
+.form-label {
+    font-size: 15px;
+}
+
+/* Booking page */
+.booking-page-hero span {
+    font-size: 12px;
+}
+
+.booking-page-hero p {
+    font-size: 15px;
+}
+
+.booking-information strong {
+    font-size: 14px;
+}
+
+.booking-information p {
+    font-size: 14px;
+}
+
+/* My bookings */
+.my-bookings-hero span {
+    font-size: 12px;
+}
+
+.my-bookings-hero p {
+    font-size: 15px;
+}
+
+.booking-section-label {
+    font-size: 12px;
+}
+
+.booking-summary-card span {
+    font-size: 13px;
+}
+
+.bookings-table {
+    font-size: 14px;
+}
+
+.bookings-table thead th {
+    font-size: 12px;
+}
+
+.bookings-table tbody td {
+    font-size: 14px;
+}
+
+.booking-status {
+    font-size: 12px;
+}
+
+.btn-cancel-booking {
+    font-size: 13px;
+}
+
+/* Footer */
+.footer-description,
+.footer-links li,
+.contact-item {
+    font-size: 14px;
+}
+
+.footer-heading {
+    font-size: 23px;
+}
+
+.footer-tagline {
+    font-size: 12px;
+}
+
+.footer-bottom {
+    font-size: 13px;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .hero-bottom-text {
+        font-size: 13px;
+    }
+
+    .intro-description,
+    .service-card p,
+    .portal-card p {
+        font-size: 14px;
+    }
+
+    .room-description {
+        font-size: 14px;
+    }
+
+    .brand-name {
+        font-size: 23px;
+    }
+
+}
+/* Improve Grey Text Readability */
+.text-muted {
+    color: #64748b !important;
+}
+
+/* General secondary text */
+.footer-description,
+.footer-links li,
+.contact-item,
+.section-heading p,
+.service-card p,
+.portal-card p,
+.intro-description,
+.room-description {
+    color: #475569;
+}
+
+/* Footer text */
+.luxury-footer .text-muted,
+.footer-bottom {
+    color: #cbd5e1 !important;
+}
+
+/* Form placeholder */
+.form-control::placeholder {
+    color: #64748b;
+    opacity: 1;
+}
